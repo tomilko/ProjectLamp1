@@ -2,5 +2,6 @@
     <string name="app_name">Lamp</string>
     <string name="ON">Включить</string>
     <string name="OFF">Выключить</string>
-    <string name="textView">УПРАВЛЕНИЕ ЛАМПОЧКОЙ</string>
+    <string name="text">Управление Лампой</string>
+    <string name="value"></string>
 </resources>
