@@ -13,11 +13,4 @@ public class MyWebViewClient extends WebViewClient {
         view.loadUrl(request.getUrl().toString());
         return true;
     }
-
-    // Для старых устройств
-    @Override
-    public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        view.loadUrl(url);
-        return true;
-    }
 }
