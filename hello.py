@@ -1,6 +1,5 @@
 import os
 from flask import Flask
-from flask import render_template
 
 app = Flask(__name__)
 
@@ -17,5 +16,3 @@ def on():
 def off():
 		os.system("echo 0 > /sys/class/gpio/gpio199/value")
 		return "OFF"
-if __name__ == '__main__':
-		app.run(host='0.0.0.0')
